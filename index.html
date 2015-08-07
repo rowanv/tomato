@@ -10,6 +10,7 @@
     <link rel='stylesheet' href='css/pure-drawer.css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script type="text/JavaScript" src="js/jsDraw2D.js"></script>
+    <script src="js/app.js"></script>
 
 
 
@@ -18,8 +19,7 @@
 
   <body>
 
-<!-- Nav bar is from mac 81's PureDrawer -->
-<!--See more at: http://mac81.github.io/pure-drawer/documentation.html#sthash.gY7a3NNx.dpuf-->
+<!-- From PureDrawer -->
 <div class="pure-container" data-effect="pure-effect-slide">
     <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
     <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
@@ -27,8 +27,9 @@
     </label>
 
     <div class="pure-drawer" data-position="left">
-      <div>
-        Put your off canvas content here
+        <div id='something'>
+          Something
+        </div>
     </div>
     <div class="pure-pusher-container">
         <div class="pure-pusher">
@@ -47,14 +48,14 @@
       <button id="reset">Reset</button>
     </div>
 
-<div id="test"></div>
-
-        <script src="js/app.js"></script>
         </div>
     </div>
     <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
 </div>
+<!--See more at: http://mac81.github.io/pure-drawer/documentation.html#sthash.gY7a3NNx.dpuf-->
 
+
+<div id="test"></div>
 
 
 
